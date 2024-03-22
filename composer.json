@@ -1,8 +1,8 @@
 {
-    "name": "tiagosampaio/telegram-magento2",
+    "name": "amida-software/telegram-magento2",
     "description":"The perfect module to integrate your Magento 2 with Telegram Bots.",
     "require": {
-        "tiagosampaio/telegram-bot-php": "dev-develop"
+        "amida-software/telegram-bot-php": "dev-master"
     },
     "suggest": {},
     "type": "magento2-module",
@@ -26,5 +26,11 @@
             "Telegram\\Bot\\": ""
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amida-software/telegram-bot-php.git"
+        }
+    ]
 }
